@@ -14,7 +14,7 @@ function App() {
         <Route path="/create-book">
           <CreateBook />
         </Route>
-        <Route path="/update-book">
+        <Route path="/update-book:id">
           <UpdateBook />
         </Route>
         <Route path="/">
